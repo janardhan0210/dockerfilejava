@@ -1,0 +1,6 @@
+name: realCase
+version: '1.0'
+main: ru.divided.realcase.RealCase
+api-version: '1.20'
+commands:
+  opencase
