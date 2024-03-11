@@ -5,7 +5,7 @@ FROM openjdk:11
 WORKDIR /home/janardhan/Docker/dockerfilejava
 
 # Copy the compiled Java application JAR file into the container
-COPY target/dockerfilejava.jar /home/janardhan/Docker/dockerfilejava/dockerfilejava.jar
+COPY target/dockerfilejava.jar* /home/janardhan/Docker/dockerfilejava/dockerfilejava.jar
 
 # Expose the port your Java application listens on
 EXPOSE 8500
